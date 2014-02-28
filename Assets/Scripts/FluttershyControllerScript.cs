@@ -51,8 +51,9 @@ public class FluttershyControllerScript : MonoBehaviour
 			rigidbody2D.AddForce(new Vector2(0, jumpForce));
 		}
 		
-		if (Input.GetButtonDown ("Fire1")) 
+		if (Input.GetButtonDown ("Fire1")) {
 			anim.SetTrigger("Attack");
+			}
 		
 		if(Input.GetButtonDown("Dance"))
 			anim.SetTrigger("Dance");
